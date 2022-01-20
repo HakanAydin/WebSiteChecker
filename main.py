@@ -8,6 +8,7 @@ from datetime import datetime
 # Simple and easy script. Requests a web page with dedicated header input, gets the whole page and search specific word.
 # If the specified word does not exists; It sends a message to a specific Telegram Bot to inform users.
 
+# Don't forget to update bot_token, bot_chatID, url and aaabbb values.
     
 def telegram_bot_sendtext(bot_message):
     bot_token = 'xxx:yyy'
